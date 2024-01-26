@@ -1,0 +1,306 @@
+
+body {
+    background-color:#0f1c24;
+    overflow-x: hidden;
+    font-family: mont;
+    margin-bottom: 500px;
+  
+}
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+
+::-webkit-scrollbar-track {
+  border-radius: 100px;
+ 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+    background:#D5DBDB;
+  height: 10px;
+  border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background:#00cc83;
+  cursor: pointer;
+}
+
+#Hi{
+    color: #edf2f4;
+}
+h1 {
+    color: #edf2f4;
+    display: inline;
+    font-family: 'mont', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    height: auto;
+    letter-spacing: normal;
+    line-height: 52.715px;
+    text-align: center;
+    text-size-adjust: 100%;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.svg-image {
+    width: 100%;
+    height: auto;
+}
+
+h2:hover{
+cursor: pointer;
+}
+
+#code{
+    color:#00cc83;
+}
+li{
+
+    color: white;;
+}
+
+
+
+
+.scrolling-container {
+    position: relative;
+    background-color:#00cc83;
+    overflow: hidden; 
+}
+.scrolling-container:hover{
+ cursor: pointer;
+
+}
+.scrolling-text {
+    white-space: nowrap;
+    animation: marquee 20s linear infinite; 
+    color: #000; 
+    display: inline-block;
+    font-size: 27px; 
+    font-weight: bold;
+}
+
+.dot-divider {
+    color: #000; 
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.scroll-item {
+    margin-right: 20px;
+}
+
+.dot-divider {
+    margin: 0 10px;
+    color: black/* Dot color */
+}
+
+@media only screen and (max-width: 600px) {
+    .scroll-item {
+        padding: 0 5px;
+    }
+
+    .dot-divider {
+        margin: 0 2px;
+    }
+}
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+#Abhishek {
+            font-size: 50px;
+            font-weight: normal;
+            background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            transition: transform 0.3s ease;
+        }
+
+        #Abhishek:hover {
+            transform: scale(1.1);
+        }
+
+#design{
+    background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+        a {
+          text-decoration: none;
+        }
+        .accordion-button {
+    background-color:  #1b2c34;
+    color: #00cc83;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.accordion-item {
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.accordion-body {
+    background-color: #FFFFFF;
+}
+
+@media (min-width: 576px) {
+    .accordion-item {
+        max-width: 540px; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .accordion-item {
+        max-width: 720px; 
+    }
+}
+
+@media (min-width: 992px) {
+    .accordion-item {
+        max-width: 960px; 
+    }
+}
+
+@media (min-width: 1200px) {
+    .accordion-item {
+        max-width: 1140px; 
+    }
+}
+
+.accordion-button:not(.collapsed) {
+    color: #00cc83;
+    background-color:  #1b2c34;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+        span.greater-less {
+    font-family: Arial, sans-serif;
+}
+
+        ul {
+        list-style-type: none; 
+        padding: 0; 
+    }
+
+    li {
+        margin-bottom: 10px; 
+        font-size: 16px; 
+        line-height: 1.4;
+        color: #1b2c34;
+        font-family: 'Arial', sans-serif; 
+    }
+    .accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2300cc83'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+span.hash {
+    font-family: Arial, sans-serif;
+}
+    
+
+.project-buttonn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color:#00cc83;
+            color: #000;
+            text-decoration: none;
+            font-size: 19px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            /* box-shadow: rgba(0, 0, 0, 0.04) 1px 1px 3px; */
+            transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+            width: 170px;
+            outline: none;
+            border-radius: 10px;
+            cursor: pointer;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            font-family: 'mont', sans-serif;
+            font-style: normal;
+            -webkit-box-pack: center;
+            justify-content: center;
+        }
+        .project-buttonn:hover {
+                transform: scale(1.1);
+                background-color:#00cc83;
+                color: black;
+               
+            }   
+
+            .project-buttonnn {
+            display: inline-block;
+            padding: 10px 20px;
+            /* background-color:white; */
+            color:#00cc83;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border: 2px solid #00cc83;
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.04) 1px 1px 3px;
+            transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+            width: 160px;
+            outline: none;
+            border-radius: 10px;
+            cursor: pointer;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            font-family: 'mont', sans-serif;
+            font-style: normal;
+            -webkit-box-pack: center;
+            justify-content: center;
+        }
+        .project-buttonnn:hover {
+                transform: scale(1.1);
+                color:#00cc83;
+            }   
+            .flex.container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            flex: 1;
+            margin: 8px;
+            box-sizing: border-box;
+            text-align: center; /* Center the logos within their containers */
+        }
+
+        .logo img {
+            width: 100px; /* Set the desired width */
+            height: 100px; /* Set the desired height */
+            object-fit: contain;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+            
+        }
+        .logo img:hover {
+            transform: scale(1.1);
+}
+        
+      
+  
